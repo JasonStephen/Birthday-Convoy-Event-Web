@@ -1,0 +1,33 @@
+/* 命名规则如下 */
+/* 隶属于的CSS-主类别-属于板块 */
+/* 优先使用继承，如果可以实现的话 */
+
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+
+/* CC Div */
+.cc-div-row
+{
+    position: relative;
+    width:100%;
+    height:auto;
+    float: left;
+    background-color: #23282B;
+}
+
+.cc-div-row-tb
+{
+    position:relative;
+    width: auto;
+    height:auto;
+    margin-left: 50%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    transform: translate(-50%, 0);
+}
+.cc-div-row p
+{
+    font-size: 0.6vw;
+    text-align: center;
+}

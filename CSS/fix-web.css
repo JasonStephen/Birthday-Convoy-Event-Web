@@ -1,0 +1,83 @@
+/* Body Fix */
+html, body
+{
+    margin:0;
+    scroll-behavior: smooth;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+
+/* Div Fix */
+.fix-div_position /* Fix Div Position */
+{
+    position:relative;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: auto;
+}
+
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+
+/* Img Fix */
+.fix-img-center/*Img Postion*/
+{
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;/* Position Center */
+    background-repeat: no-repeat;
+}
+
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+
+/* Text Fix */
+.fix-t /* Fix Text Position */
+{
+    margin:0;
+}
+
+.set-t-d /* Text Default */
+{
+    font-family: "微软雅黑 " !important;
+    font-family: "宋体";
+    color: white;
+    font-weight: bolder;
+}
+
+.set-t-d-nb/* Text Default No Bold */
+{
+    font-family: "微软雅黑" !important;
+    font-family: "宋体";
+    color: white;
+}
+
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+
+/* Add New Part */
+#showchange
+{
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    transition-delay: 0.25s;
+}
+
+#showchange.changed
+{
+    opacity: 1;
+
+}
